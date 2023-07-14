@@ -6,3 +6,8 @@ services:
       - ./.env
     volumes:
       - ./data:/app/data
+    deploy:
+        condition: any
+        delay: 120s
+        max_attempts: 3
+        window: 60s
