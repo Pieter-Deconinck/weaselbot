@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   weaselbot:
-    build: .
+    image: weas/weaselbot:latest
     env_file:
       - ./.env
     volumes:
