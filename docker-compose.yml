@@ -6,9 +6,4 @@ services:
       - ./.env
     volumes:
       - ./data:/app/data
-    deploy:
-      restart_policy:
-        condition: any
-        delay: 120s
-        max_attempts: 3
-        window: 60s
+    restart: on-failure
