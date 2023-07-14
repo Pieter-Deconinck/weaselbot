@@ -10,4 +10,3 @@ services:
         condition: any
         delay: 120s
         max_attempts: 3
-        window: 60s
