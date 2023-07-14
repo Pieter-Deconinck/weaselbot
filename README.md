@@ -12,8 +12,8 @@ it was a good opportunity for me to learn about discord bots and the chatgpt API
 
 Create .ENV
 
-        DISCORD_TOKEN=PUT_TOKEN_HERE
-        PENAI_API_KEY=PUT_TOKEN_HERE
+    DISCORD_TOKEN=PUT_TOKEN_HERE
+    PENAI_API_KEY=PUT_TOKEN_HERE
 
 Download the docker-compose file
 
