@@ -22,7 +22,7 @@ try {
   // listen to messages for .sorry
   client.on("messageCreate", async (message) => {
     try {
-      if (message.content == ".sorry") {
+      if (message.content == ".sorry" || message.content == "!sorry" || message.content == "-sorry" || message.content == "/sorry") {
         const api = new ChatGPTAPI({
           apiKey: process.env.OPENAI_API_KEY,
           completionParams: {
