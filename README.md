@@ -18,3 +18,4 @@ Create .ENV
 Download the docker-compose file
 
 run docker compose up 
+   
